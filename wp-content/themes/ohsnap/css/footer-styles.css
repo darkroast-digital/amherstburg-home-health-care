@@ -1,0 +1,97 @@
+.gform_wrapper .datepicker{ 
+	width: 97.5% !important;
+}
+
+.gform_wrapper .gfield_time_hour input, .gform_wrapper .gfield_time_minute input {
+	width: 100% !important;
+}
+
+.gform_wrapper .gfield_time_minute, .gform_wrapper .gfield_time_hour {
+	width: 45.3%;
+}
+
+select#input_1_11_3, select#input_1_29_3 {
+	background: none;
+	border-radius: 0px !important;
+	padding-left: .5rem;
+	line-height: 1.9;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0px;
+	position: relative;
+}
+
+
+
+.gfield_time_ampm {
+	position: relative;
+}
+
+.gfield_time_ampm:after {
+	content: '▼';
+	font-size: .6rem;
+	color: #fff;
+	position: absolute;
+	top: 15px;
+	right: 5px;
+}
+
+select#input_1_11_3, select#input_1_29_3 {
+	border-color: #fff;
+	color: #fff;
+	cursor: pointer;
+}
+
+select#input_1_11_3:focus, select#input_1_29_3:focus {
+	outline: none;
+}
+
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container, .gform_wrapper li.gfield_html {
+	max-width: 100% !important;
+	margin: 0;
+}
+
+.gform_wrapper .datepicker {
+	width: 100% !important;
+}
+
+.gform_wrapper.gf_browser_chrome select {
+	padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.gform_wrapper .gfield_time_minute, .gform_wrapper .gfield_time_hour {
+	width: 42%;
+}
+	
+	.gform_wrapper.gf_browser_chrome select {
+	padding: 6px 0;
+}
+	
+	.gfield_time_ampm:after {
+	content: '▼';
+	font-size: .6rem;
+	color: #fff;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+}
+
+@media screen and (max-width: 600px) {
+	.gform_wrapper .gfield_time_minute, .gform_wrapper .gfield_time_hour {
+		width: 38%;
+	}
+	
+	.gfield_time_ampm:after {
+		content: '▼';
+		font-size: .6rem;
+		color: #fff;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+}
+
+body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html ul li, body .gform_wrapper form div.gform_body ul.gform_fields li.gfield.gfield_html ul li {
+	list-style-type: none !important;
+}

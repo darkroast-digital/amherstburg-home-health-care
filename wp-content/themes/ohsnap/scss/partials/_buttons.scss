@@ -1,0 +1,52 @@
+.button {
+  display: inline-block;
+  padding: 5px 30px;
+  background: $main-colour;
+  color: $white;
+  border: $main-colour solid 1px;
+  transition: $easing;
+  font-family: $body-font;
+
+  &:hover {
+    background: none;
+    color: $main-colour;
+  }
+}
+
+.button-ghost {
+  background: none;
+  color: $main-colour;
+
+  &:hover {
+    background: $main-colour;
+    color: $white;
+  }
+}
+
+.button-secondary {
+  background: $white;
+  color: $main-colour;
+  border-color: $white;
+
+  &:hover {
+    background: none;
+    color: $white;
+  }
+}
+
+.button-ghost-secondary {
+  background: none;
+  color: $white;
+  border-color: $white;
+
+  &:hover {
+    background: $white;
+    color: $main-colour;
+  }
+}
+
+.button-rounded {
+  border-radius: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
